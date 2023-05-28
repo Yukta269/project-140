@@ -139,7 +139,7 @@ $(document).ready(function(){
         //  ajax call
         $.ajax({
             type : 'POST',
-            url : '/save',
+            url : '/bot-response',
             data : JSON.stringify(input_data),
             dataType : 'json',
             contentType : 'application/json',
