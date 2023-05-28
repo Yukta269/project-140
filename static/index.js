@@ -168,7 +168,7 @@ function displayBot() {
 
     //  when chatbot button is clicked
     //Activity1
-    $('#chatbox').click(function () {
+    $('#.chatbox_button').click(function () {
 
         //  toggle the chatbot chat window
         $('.chatbox__chat').toggle()
@@ -182,7 +182,7 @@ function askBot() {
 
     //  when send button is clicked
     //Activity2
-    $("#send").click(function () {
+    $("#send_button").click(function () {
 
         //  get text from textbox in chatbot
         var user_bot_input_text = $("#bot_input_text").val()
